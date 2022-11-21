@@ -1,6 +1,6 @@
 # Chapter 1
 
-## 1. Logarithms
+## 1. Logarithms / Binary Search
 
 log2 64 = x
 
