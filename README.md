@@ -18,3 +18,5 @@ log2 128 = 7
 1.3 “Suppose you double the size of the list. What’s the maximum number of steps now?”
 
 log2 256 = 8
+
+<!-- Come back sunday and get to work on this shit -->
