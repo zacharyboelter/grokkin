@@ -24,3 +24,5 @@ log2 256 = 8
 # Chapter 2
 
 ## 1. Arrays, Linked Lists, and Selection Sort
+
+2.1 
