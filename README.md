@@ -19,7 +19,6 @@ log2 128 = 7
 
 log2 256 = 8
 
-<!-- Come back sunday and get to work on this shit -->
 
 # Chapter 2
 
