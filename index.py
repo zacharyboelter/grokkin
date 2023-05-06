@@ -24,3 +24,6 @@ print(binary_search(my_list, 3))
 print(binary_search(my_list, 29))
 print(binary_search(my_list, 50))
 
+
+# okay, i am back. Need to make sure and code for 1 hour a day
+
