@@ -89,3 +89,6 @@ def bool_to_word(boolean):
         return 'Yes'
     else:
         return 'No'
+    
+def bool_words(bool):
+    return 'Yes' if bool else 'No'
