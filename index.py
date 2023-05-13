@@ -92,3 +92,18 @@ def bool_to_word(boolean):
     
 def bool_words(bool):
     return 'Yes' if bool else 'No'
+
+
+
+# You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
+
+def get_middle(word):
+    # get the length of the word
+    length = len(word)
+    # check if word is even
+    if length % 2 == 0: 
+        # divide the word in 2 and return the middle two letters
+        return word[length // 2 - 1:length // 2 + 1]
+    else:
+        # if odd, return the middle letter
+        return word[length // 2]
