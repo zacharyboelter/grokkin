@@ -139,3 +139,31 @@ class Solution(object):
         nums_set = len(set(nums))
         
         return nums_set != len(nums)
+
+class Solution(object):
+    def hasDupes(nums):
+        nums.sort()
+
+        for i in range(len(nums) - 1):
+            if nums[i] == nums[i + 1]:
+                return True
+        return False
+    
+
+
+class Solution(object):
+    def containsAnagram(self, s, t):
+        # check correct length
+        if len(s) != len(t):
+            return False
+        
+        # convert lists for easier comparison
+        s_chars = list(s)
+        t_chars = list(t)
+
+        # sort low to high
+        s_chars.sort()
+        t_chars.sort()
+
+        # if correct, true
+        return s_chars == t_chars
