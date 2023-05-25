@@ -121,3 +121,21 @@ def lovefunc( flower1, flower2 ):
         return True
     else: 
         return False
+
+
+# 217. Contains Duplicate
+# Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+
+class Solution(object):
+    def containsDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+
+        # set can not contain multiple of same, check if length is same as nums
+        # return
+        nums_set = len(set(nums))
+        
+        return nums_set != len(nums)
