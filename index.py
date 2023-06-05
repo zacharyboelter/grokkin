@@ -151,26 +151,38 @@
     
 
 
-class Solution(object):
-    def containsAnagram(s, t):
-        # check correct length
-        if len(s) != len(t):
-            return False
+# class Solution(object):
+#     def containsAnagram(s, t):
+#         # check correct length
+#         if len(s) != len(t):
+#             return False
         
-        # convert lists for easier comparison
-        s_chars = list(s)
-        t_chars = list(t)
+#         # convert lists for easier comparison
+#         s_chars = list(s)
+#         t_chars = list(t)
 
-        # sort low to high
-        s_chars.sort()
-        t_chars.sort()
+#         # sort low to high
+#         s_chars.sort()
+#         t_chars.sort()
 
-        # if correct, true
-        return s_chars == t_chars
+#         # if correct, true
+#         return s_chars == t_chars
     
 
-    print(containsAnagram('manage', 'manager'))
-    print(containsAnagram('rat', 'tar'))
-    print(containsAnagram('popular', 'movies'))
+#     print(containsAnagram('manage', 'manager'))
+#     print(containsAnagram('rat', 'tar'))
+#     print(containsAnagram('popular', 'movies'))
     
 
+# Your team is writing a fancy new text editor and you've been tasked with implementing the line numbering.
+
+# Write a function which takes a list of strings and returns each line prepended by the correct number.
+
+# The numbering starts at 1. The format is n: string. Notice the colon and space in between.
+
+def number(lines):
+    numbered_lines = []
+    for i, line in enumerate(lines):
+        numbered_lines.append(str(i + 1)+ ": " + line)
+    return numbered_lines
+        
