@@ -186,3 +186,7 @@ def number(lines):
         numbered_lines.append(str(i + 1)+ ": " + line)
     return numbered_lines
         
+def num(lines):
+    return(f"{i + 1}: {line}" for i, line in enumerate(lines))
+
+print(num(['a', 'b', 'c']))
