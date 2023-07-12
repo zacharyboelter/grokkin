@@ -180,13 +180,15 @@
 
 # The numbering starts at 1. The format is n: string. Notice the colon and space in between.
 
-def number(lines):
-    numbered_lines = []
-    for i, line in enumerate(lines):
-        numbered_lines.append(str(i + 1)+ ": " + line)
-    return numbered_lines
+# def number(lines):
+#     numbered_lines = []
+#     for i, line in enumerate(lines):
+#         numbered_lines.append(str(i + 1)+ ": " + line)
+#     return numbered_lines
         
-def num(lines):
-    return(f"{i + 1}: {line}" for i, line in enumerate(lines))
+# def num(lines):
+#     return(f"{i + 1}: {line}" for i, line in enumerate(lines))
 
-print(num(['a', 'b', 'c']))
+# print(num(['a', 'b', 'c']))
+
+
